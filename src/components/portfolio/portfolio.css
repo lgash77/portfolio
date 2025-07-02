@@ -1,10 +1,12 @@
 .portfolio__filters {
     display: flex;
     align-items: center;
+    justify-content: center; 
     flex-wrap: wrap;
     column-gap: 1.875rem;
     margin-bottom: 2.5rem;
 }
+
 
 .portfolio__item {
     cursor: pointer;
@@ -22,11 +24,16 @@
 }
 
 .portfolio__card {
-    position: relative;
-    overflow: hidden;
-    border-radius: var(--border-radius);
-    box-shadow: var(--shadow);
+  display: block; /* Ensure Link behaves like a block container */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Keep text color */
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  cursor: pointer;
 }
+
 
 .portfolio__mask {
     background: #6c6ce5;

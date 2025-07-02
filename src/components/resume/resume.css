@@ -94,3 +94,11 @@
     text-align: justify;
   }
 }
+
+.timeline__header {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1rem;
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+}

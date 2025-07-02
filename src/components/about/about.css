@@ -34,6 +34,8 @@
   gap: 1rem;
   justify-content: center;
   margin-top: 2rem;
+  margin-bottom: 4.5rem; /* increase from 2rem to 3rem or more */
+
 }
 
 .skills__heading {
@@ -91,7 +93,7 @@
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s ease;
-  z-index: 10;
+  z-index: 1000;
   pointer-events: none;
   text-align: left;
   min-width: 200px;

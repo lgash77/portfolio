@@ -15,7 +15,12 @@
 
 
 .home__img {
-    margin-bottom: 1.5rem;
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
 }
 
 .home__name {

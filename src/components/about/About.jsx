@@ -1,6 +1,6 @@
 import React from 'react';
 import "./about.css";
-import Image from "../../assets/avatar-2.svg";
+import Image from "../../assets/avatar-lg.png";
 import AboutBox from './AboutBox';
 
 const About = () => {
@@ -15,12 +15,19 @@ const About = () => {
                 {/* Content Data Column */}
                 <div className="about__data grid">
                     
+
+                    
                     {/* Description */}
                     <div className="about__info">
                         <p className="about__description">
-                            I am Leoul Gashaw and this is where the rest of my descriptions 
-                            is gonna be but in the mean time since this is short blah blah 
-                            blah blahhhhhh
+                            I'm a results-driven data professional with a strong foundation in Python, SQL, and data architecture, 
+                            currently pursuing a Master’s in Data Analytics. I have hands-on experience in data cleaning, transformation, 
+                            and exploratory analysis, with a proven ability to develop dashboards and visualizations using tools 
+                            like Tableau, Power BI, and Excel. Skilled in designing and querying relational databases (MySQL, PostgreSQL), 
+                            I also apply statistical and machine learning techniques to uncover insights and support data-driven 
+                            decisions. My approach blends analytical rigor with collaborative problem-solving, making me well-suited 
+                            for roles in data analysis, data science, and database development.
+
                         </p>
                     </div>
 
@@ -67,6 +74,7 @@ const About = () => {
                                 <p>HTML – 3 Years</p>
                                 <p>JavaScript – 2 Years</p>
                                 <p>Figma – 2 Years</p>
+                                <p>React (including JSX) – 1.5 Years</p>
                                 <p>Adobe Suite – 1 Year</p>
                             </div>
                         </div>
@@ -86,7 +94,7 @@ const About = () => {
 
                     {/* Resume Button */}
                     <div className="about__resume-button">
-                        <a href="/LGFiles/Leoul-Resume.docx" download className="btn">
+                        <a href="/LGFiles\Resume.pdf" download className="btn">
                             📄 Download Resume
                         </a>
                     </div>
@@ -97,5 +105,6 @@ const About = () => {
         </section>
     );
 };
+
 
 export default About;
